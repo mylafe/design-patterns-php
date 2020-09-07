@@ -60,7 +60,7 @@ class CommonDb
 }
 ````
 ----
-````
+```` php
 <?php
 require_once 'patterns.php';
 use Mylafe\DesignPatterns\Singleton;
