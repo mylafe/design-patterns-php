@@ -1,0 +1,14 @@
+{
+  "name": "mylafe/design-patterns-php",
+  "description": "design patterns php",
+  "keywords": ["design patterns php", "php", "mylafe"],
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mylafe",
+      "email": "mylafe@litao0501.com"
+    }
+  ],
+  "require": {}
+}

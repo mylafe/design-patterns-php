@@ -1,2 +1,4 @@
-# design-patterns-php
-php设计模式
+#### php设计模式
+####目录
+1.[单例模式](https://github.com/mylafe/design-patterns-php/tree/master/Singleton/README.md)
+
