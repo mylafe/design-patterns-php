@@ -77,4 +77,3 @@ $db2->name = 'demo2';
 var_dump($db1->name);
 var_dump($db2->name);
 ````
-###### 
