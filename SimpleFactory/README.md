@@ -15,3 +15,5 @@
     抽象基类：类中定义抽象一些方法，用以在子类中实现
     继承自抽象基类的子类：实现基类中的抽象方法
     工厂类：用以实例化对象
+
+![uml](https://github.com/mylafe/design-patterns-php/blob/master/Img/SimpleFactory.png)
