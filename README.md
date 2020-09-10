@@ -58,7 +58,7 @@
 
 0. [单例模式](https://github.com/mylafe/design-patterns-php/blob/master/Singleton)
 1. [简单工厂模式](https://github.com/mylafe/design-patterns-php/blob/master/SimpleFactory)
-2. 抽象工厂
+2. [抽象工厂](https://github.com/mylafe/design-patterns-php/blob/master/AbstractFactory)
 3. 原型模式
 4. 适配器模式
 5. 桥接模式

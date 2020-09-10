@@ -12,6 +12,9 @@
     私有化克隆方法：防止clone多个实例；
     私有化重建方法：防止反序列化；
     公有化静态方法：入口
+    
+![uml](https://github.com/mylafe/design-patterns-php/blob/master/Img/Singleton.png)
+
 ```` php
 <?php
 namespace Mylafe\DesignPatterns\Singleton;
