@@ -13,7 +13,7 @@
     私有化重建方法：防止反序列化；
     公有化静态方法：入口
     
-![uml](https://github.com/mylafe/design-patterns-php/blob/master/Img/Singleton.png)
+![uml](Img/Singleton.png)
 
 ```` php
 <?php

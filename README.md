@@ -6,17 +6,17 @@
 
 #### 六大原则
 
-0. [开闭原则](https://github.com/mylafe/design-patterns-php/blob/master/Rule/开闭原则.md)（Open Close Principle）：对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。即尽量在不修改原有代码的基础上进行扩展。
+0. [开闭原则](Rule/开闭原则.md)（Open Close Principle）：对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。即尽量在不修改原有代码的基础上进行扩展。
 
-1. [里氏代换原则](https://github.com/mylafe/design-patterns-php/blob/master/Rule/里氏代换原则.md)（Liskov Substitution Principle）：任何基类可以出现的地方，子类一定可以出现。LSP 是继承复用的基石，只有当派生类可以替换掉基类，且软件单位的功能不受到影响时，基类才能真正被复用。里氏代换原则是对开闭原则的补充，是对实现抽象化的具体步骤的规范。
+1. [里氏代换原则](Rule/里氏代换原则.md)（Liskov Substitution Principle）：任何基类可以出现的地方，子类一定可以出现。LSP 是继承复用的基石，只有当派生类可以替换掉基类，且软件单位的功能不受到影响时，基类才能真正被复用。里氏代换原则是对开闭原则的补充，是对实现抽象化的具体步骤的规范。
 
-2. [依赖倒转原则](https://github.com/mylafe/design-patterns-php/blob/master/Rule/依赖倒转原则.md)（Dependence Inversion Principle）：针对接口编程，依赖于抽象而不依赖于具体。
+2. [依赖倒转原则](Rule/依赖倒转原则.md)（Dependence Inversion Principle）：针对接口编程，依赖于抽象而不依赖于具体。
 
-3. [接口隔离原则](https://github.com/mylafe/design-patterns-php/blob/master/Rule/接口隔离原则.md)（Interface Segregation Principle）：使用多个隔离的接口，比使用单个接口要好。降低类之间的耦合度。其实设计模式就是从大型软件架构出发、便于升级和维护的软件设计思想，它强调降低依赖，降低耦合。
+3. [接口隔离原则](Rule/接口隔离原则.md)（Interface Segregation Principle）：使用多个隔离的接口，比使用单个接口要好。降低类之间的耦合度。其实设计模式就是从大型软件架构出发、便于升级和维护的软件设计思想，它强调降低依赖，降低耦合。
 
-4. [迪米特法则](https://github.com/mylafe/design-patterns-php/blob/master/Rule/迪米特法则.md)，又称最少知道原则（Demeter Principle）：一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。
+4. [迪米特法则](Rule/迪米特法则.md)，又称最少知道原则（Demeter Principle）：一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。
 
-5. [合成复用原则](https://github.com/mylafe/design-patterns-php/blob/master/Rule/合成复用原则.md)（Composite Reuse Principle）：尽量使用合成/聚合的方式，而不是使用继承。
+5. [合成复用原则](Rule/合成复用原则.md)（Composite Reuse Principle）：尽量使用合成/聚合的方式，而不是使用继承。
 
 #### 分类
 
@@ -56,9 +56,9 @@
  
 #### 目录
 
-0. [单例模式](https://github.com/mylafe/design-patterns-php/blob/master/Singleton)
-1. [简单工厂模式](https://github.com/mylafe/design-patterns-php/blob/master/SimpleFactory)
-2. [抽象工厂](https://github.com/mylafe/design-patterns-php/blob/master/AbstractFactory)
+0. [单例模式](Singleton/README.md)
+1. [简单工厂模式](SimpleFactory/README.md)
+2. [抽象工厂](AbstractFactory/README.md)
 3. 原型模式
 4. 适配器模式
 5. 桥接模式
