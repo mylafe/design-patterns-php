@@ -27,4 +27,24 @@
     要实例话的对象充满不确定性可能会改变的时候；
     要创建的对象的数目和类型是未知的。
 
- 
+###### 分析
+    抽象工厂的优点是产品跟客户端完全分离；
+    我们在 Client 中只调用了 Factory；
+    甚至连产品的类名都不需要知道；
+    但是缺点也很明显；
+    那如果要增加一个 category 表；
+    那我们需要增加 Category接口类、MySQLCategory、SQLiteCategory；
+    还需要在 Factory、MySQLFactory、SQLiteFactory 中增加 createCategory 方法；
+    分别新增3个文件和改动3个文件才行。
+
+ ![uml](../Img/AbstractFactory.png)
+
+###### 使用简单工厂优化抽象工厂
+    多个 interface 或者 abstract 产品父类；
+    多个实现 interface 或者继承 abstract 的具体产品类；
+    
+    1个工厂；
+    工厂类里面有多个方法分别实例化不同的具体产品类；
+
+优化结构：
+![umlYH](../Img/AbstractFactoryYH.png)
