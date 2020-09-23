@@ -39,12 +39,21 @@
 
  ![uml](../Img/AbstractFactory.png)
 
-###### 使用简单工厂优化抽象工厂
+----
+
+###### 使用[反射优化抽象工厂](../AbstractFactoryWithReflection/index.php)
     多个 interface 或者 abstract 产品父类；
     多个实现 interface 或者继承 abstract 的具体产品类；
     
     1个工厂；
     工厂类里面有多个方法分别实例化不同的具体产品类；
 
-优化结构：
+优点：
+    
+    当我们需要支持更多的数据库的时候；
+    比如说 PostgreSQL ；
+    我们只需要新建 PostgreSQLUser 和 PostgreSQLArticle ；
+    这就符合开闭原则了；
+    可以方便的扩展且不需要修改 createUser 方法；
+
 ![umlYH](../Img/AbstractFactoryYH.png)
