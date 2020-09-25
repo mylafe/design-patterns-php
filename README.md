@@ -62,7 +62,7 @@
 
 2. [抽象工厂](AbstractFactory/README.md)
 
-3. 原型模式
+3. [原型模式](Prototype/README.md)
 
 4. 适配器模式
 
