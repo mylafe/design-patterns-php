@@ -3,9 +3,9 @@
 namespace Mylafe\DesignPatterns\Prototype;
 
 /**
- * Class ShallowDrive
+ * Class DeepDrive
  */
-class ShallowDrive
+class DeepDrive
 {
 
     private $car;
@@ -15,8 +15,7 @@ class ShallowDrive
      */
     public function __construct()
     {
-        echo '<br>';
-        echo '准备完成-浅拷贝'.'<br>';
+        echo '准备完成-深拷贝'.'<br>';
     }
 
     /**
@@ -31,5 +30,10 @@ class ShallowDrive
     {
         echo '开始驾驶'.$this->car->name;
         echo '<br>';
+    }
+
+    public function __clone()
+    {
+        $this->car = clone $this->car;
     }
 }
