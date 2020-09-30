@@ -56,13 +56,13 @@
  
 #### 目录
 
-0. [单例模式](Singleton/README.md)
+0. [单例模式](Singleton)
 
-1. [简单工厂模式](SimpleFactory/README.md)
+1. [简单工厂模式](SimpleFactory)
 
-2. [抽象工厂](AbstractFactory/README.md)
+2. [抽象工厂](AbstractFactory)
 
-3. [原型模式](Prototype/README.md)
+3. [原型模式](Prototype)
 
 4. 适配器模式
 
