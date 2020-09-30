@@ -15,7 +15,6 @@ class ShallowDrive
      */
     public function __construct()
     {
-        echo '<br>';
         echo '准备完成-浅拷贝'.'<br>';
     }
 
